@@ -1,0 +1,134 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.whb-main-header .container {
+    max-width: 1222px;
+}
+.main-page-wrapper {
+    padding-top: 0;
+	background-color: #fefefe !important;
+}
+
+.btn-aroma a {
+	background-color: #2ec120;
+    border-color: #2ec120;
+}
+.btn-aroma a:hover {
+	background-color: #10811b;
+    border-color: #10811b;
+}
+
+.btn-send-contact {
+    background-color: #2ec120 !important;
+	border-color: #2ec120 !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+	color: white !important;
+}
+.btn-send-contact:hover {
+	background-color: #10811b !important;
+    border-color: #10811b !important;
+}
+
+
+/***  Estilos sesion 1 home  ***/
+section#seccion-one .elementor-container.elementor-column-gap-default {
+    width: 1140px;
+}
+section#seccion-mejor-cafe .elementor-container.elementor-column-gap-no {
+    width: 1140px;
+}
+.title-home h1 {
+    font-size: 4.5rem;
+}
+div#p-text-slider p {
+    font-size: 1.1rem;
+}
+div#btn-solicitar a {
+    font-size: 1.2rem;
+}
+
+section#seccion-quienes-somos .elementor-container.elementor-column-gap-no {
+    width: 1140px;
+}
+section#seccion-contacto .elementor-container.elementor-column-gap-no {
+    width: 1140px;
+}
+section#seccion-footer-one .elementor-container.elementor-column-gap-no {
+    width: 1140px;
+}
+section#seccion-productos .elementor-container.elementor-column-gap-no {
+    width: 1140px;
+}
+section#seccion-vendiendo .elementor-container.elementor-column-gap-no {
+    width: 1140px;
+}
+
+.copyrights-wrapper.copyrights-two-columns {
+    background-color: #181f2a;
+}
+span.vcard.author.author_name .fn {
+    font-size: 0;
+}
+span.vcard.author.author_name .fn:before {
+    content: "Aroma Cafetero";
+    font-size: 14px;
+}
+
+
+/***  Estilos para moviles  ***/
+@media (max-width: 767.98px) { 
+	section#seccion-one .elementor-container.elementor-column-gap-default {
+    	width: auto;
+	}
+	section#seccion-mejor-cafe .elementor-container.elementor-column-gap-no {
+    	width: auto;
+	}
+	section#seccion-footer-one .elementor-container.elementor-column-gap-no {
+		width: auto;
+		padding-left: 2rem;
+	}
+	section#seccion-productos .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-vendiendo .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-quienes-somos .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-contacto .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	
+	div#col-1 {
+		margin-bottom: 2rem;
+	}
+	div#col-2 {
+		margin-bottom: 2rem;
+	}
+}
+
+
+/***  Estilos para tablets  ***/
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+	section#seccion-mejor-cafe .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-productos .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-vendiendo .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-quienes-somos .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-contacto .elementor-container.elementor-column-gap-no {
+		width: auto;
+	}
+	section#seccion-footer-one .elementor-container.elementor-column-gap-no {
+		width: auto;
+		padding-left: 1rem;
+	}	
+}</style>
+<!-- end Simple Custom CSS and JS -->
